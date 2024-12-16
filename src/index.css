@@ -27,3 +27,46 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.salon-services {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .category-section {
+    margin-bottom: 40px;
+  }
+  
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .responsive-table th,
+  .responsive-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .responsive-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .responsive-table tr:nth-child(even) {
+    background-color: rgba(159,129,105,10)
+  }
+  
+  .responsive-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
