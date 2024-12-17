@@ -3,7 +3,7 @@ import { salonData } from "../assets/assets";
 const SalonServices = () => {
   return (
     <div className="salon-services">
-      <h1 className='text-3xl font-medium'>Salon Services Price List</h1>
+      <h1 className='text-3xl font-medium'>Services Price List</h1>
       <br></br>
       {salonData.map((category, index) => (
         <div key={index} className="category-section">

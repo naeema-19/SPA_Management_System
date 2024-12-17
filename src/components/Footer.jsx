@@ -10,8 +10,8 @@ const Footer = () => {
           <center><img className='mb-5 w-40' src={assets.logoo} alt="logo" /></center>
           <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
           <ul className='flex flex-col gap-2 text-gray-600'>
-            <li>+91 9876543211</li>
-            <li>prescripto@gmail.com</li>
+            <li>+968 12121212</li>
+            <li>javispa@gmail.com</li>
           </ul>
         </div>
 
