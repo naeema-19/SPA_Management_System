@@ -48,6 +48,7 @@ import manicure from './services_icon/manicure.png'
 import makeup from './services_icon/makeover.png'
 import massage from './services_icon/body-massage.png'
 import add from './services_icon/add.png'
+import account from './spa-account.png'
 
 
 export const assets = {
@@ -79,7 +80,8 @@ export const assets = {
     manicure,
     pack,
     massage,
-    add
+    add,
+    account
 }
 
 export const specialityData = [
