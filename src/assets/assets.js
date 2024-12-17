@@ -3,7 +3,7 @@ import header_img from './header_img.png'
 import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
-import about_image from './about_image.png'
+import about_image from './about.jpg'
 import logo from './logo.svg'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
@@ -49,6 +49,7 @@ import makeup from './services_icon/makeover.png'
 import massage from './services_icon/body-massage.png'
 import add from './services_icon/add.png'
 import account from './spa-account.png'
+import contact from './contact.jpg'
 
 
 export const assets = {
@@ -81,7 +82,8 @@ export const assets = {
     pack,
     massage,
     add,
-    account
+    account,
+    contact
 }
 
 export const specialityData = [
