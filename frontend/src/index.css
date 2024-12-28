@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Outfit;
+}
+
+.active hr {
+    @apply block
+}
+
+@media (max-width:740px) {
+    .active  p{
+       @apply text-white bg-primary
+    }
+}
+
+::-webkit-scrollbar {
+    @apply hidden
+}
+
+
+.flexx{
+    display: flex;
+    justify-content: space-evenly;
+}
+.salon-services {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+.category-section {
+  margin-bottom: 40px;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.responsive-table th {
+  background-color: #75cec7;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.responsive-table tr {
+  transition: background-color 0.3s ease;
+}
+
+.responsive-table tr:nth-child(even) {
+  background-color: #f8f4f2;
+}
+
+.responsive-table tr:hover {
+  background-color: #f4e8e3;
+}
+
+.responsive-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.responsive-table th:first-child,
+.responsive-table td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.responsive-table th:last-child,
+.responsive-table td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+/* Add rounded corners */
+.responsive-table thead th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.responsive-table thead th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.responsive-table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.responsive-table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
