@@ -37,6 +37,21 @@ import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
 
+import heroo from './hero.png'
+import logoo from './logo.png'
+import hair from './services_icon/hair.png'
+import styles from './services_icon/hair-styling.png'
+import bath from './services_icon/bath.png'
+import wax from './services_icon/wax.png'
+import facial from './services_icon/facial-massage.png'
+import pack from './services_icon/bath-towel.png'
+import manicure from './services_icon/manicure.png'
+import makeup from './services_icon/makeover.png'
+import massage from './services_icon/body-massage.png'
+import add from './services_icon/add.png'
+import account from './spa-account.png'
+import contact from './contact.jpg'
+
 
 export const assets = {
     appointment_img,
@@ -55,34 +70,64 @@ export const assets = {
     dropdown_icon,
     upload_icon,
     stripe_logo,
-    razorpay_logo
+    razorpay_logo,
+    heroo,
+    logoo,
+    hair,
+    styles,
+    bath,
+    wax,
+    facial,
+    makeup,
+    manicure,
+    pack,
+    massage,
+    add,
+    account,
+    contact
 }
 
 export const specialityData = [
     {
-        speciality: 'General physician',
-        image: General_physician
+        speciality: 'Hair treatment',
+        image: hair
     },
     {
-        speciality: 'Gynecologist',
-        image: Gynecologist
+        speciality: 'Hairstyles',
+        image: styles
     },
     {
-        speciality: 'Dermatologist',
-        image: Dermatologist
+        speciality: 'Moroccan bath',
+        image: bath
     },
     {
-        speciality: 'Pediatricians',
-        image: Pediatricians
+        speciality: 'Facial',
+        image: facial
     },
     {
-        speciality: 'Neurologist',
-        image: Neurologist
+        speciality: 'Waxing',
+        image: wax
     },
     {
-        speciality: 'Gastroenterologist',
-        image: Gastroenterologist
+        speciality: 'Massage',
+        image: massage
     },
+    {
+        speciality: 'Manicure & Pedicure',
+        image: manicure
+    },
+    {
+      speciality: 'Additional Services',
+      image: add
+    },
+    {
+       speciality: 'Makeup',
+       image: makeup
+    },
+    {
+      speciality: 'Packages',
+      image: pack
+   },
 ]
 
 export const doctors = [
@@ -297,3 +342,144 @@ export const doctors = [
         }
     },
 ]
+
+export const salonData = [
+    {
+      category: "Hair Treatments",
+      services: [
+        { name: "Protein Treatment", price: "Starting from 60 OMR" },
+        { name: "Keratin Treatment", price: "Starting from 55 OMR" },
+        { name: "Caviar Treatment", price: "Starting from 35 OMR" },
+        { name: "Filler Treatment", price: "Starting from 25 OMR" },
+        { name: "Crystal Treatment", price: "Starting from 40 OMR" },
+        { name: "Nashi Treatment", price: "Starting from 30 OMR" },
+        { name: "Mix Shake Treatment", price: "Starting from 25 OMR" },
+        { name: "Kevin Murphy Treatment", price: "Starting from 30 OMR" },
+        { name: "Dandruff Treatment", price: "25 OMR" },
+      ],
+    },
+    {
+      category: "Hairstyles",
+      services: [
+        { name: "Half-Hair Roll (Short Hair)", price: "30 OMR" },
+        { name: "Full-Hair Roll", price: "40 OMR" },
+        { name: "Closed Hairstyle", price: "Starting from 35 OMR" },
+      ],
+    },
+    {
+      category: "Moroccan Bath",
+      services: [
+        { name: "Regular Moroccan Bath", price: "25 OMR" },
+        { name: "Blue Nila Bath", price: "30 OMR" },
+        { name: "Special Bath", price: "50 OMR" },
+        { name: "Postpartum Bath", price: "40 OMR" },
+        { name: "Bridal Bath", price: "50 OMR" },
+        { name: "Pigmentation Treatment Bath", price: "50 OMR" },
+        { name: "Russian Bath", price: "35 OMR" },
+      ],
+    },
+    {
+      category: "Facials",
+      services: [
+        { name: "Whitening Facial", price: "25 OMR" },
+        { name: "Deep Cleansing Facial", price: "27 OMR" },
+        { name: "Glow Facial", price: "28 OMR" },
+        { name: "Special Facial", price: "33 OMR" },
+        { name: "Hydro Facial", price: "35 OMR" },
+        { name: "Thalgo Facial", price: "35 OMR" },
+        { name: "Hand Whitening Facial", price: "30 OMR" },
+        { name: "Feet Whitening Facial", price: "30 OMR" },
+        { name: "Hand Facial", price: "25 OMR" },
+        { name: "Feet Facial", price: "25 OMR" },
+        { name: "Underarm Facial", price: "18 OMR" },
+        { name: "Back Facial", price: "28 OMR" },
+      ],
+    },
+    {
+      category: "Waxing",
+      services: [
+        { name: "Full-Body Wax", price: "35 OMR" },
+        { name: "Full Arm Wax", price: "8 OMR" },
+        { name: "Full Leg Wax", price: "12 OMR" },
+        { name: "Half Arm Wax", price: "5 OMR" },
+        { name: "Half Leg Wax", price: "7 OMR" },
+        { name: "Underarm Wax", price: "4 OMR" },
+        { name: "Bikini Wax", price: "8 OMR" },
+      ],
+    },
+    {
+      category: "Massage",
+      services: [
+        { name: "Full-Body Massage", price: "35 OMR" },
+        { name: "Rolex Full-Body Massage", price: "38 OMR" },
+        { name: "Herbal Massage", price: "40 OMR" },
+        { name: "Sculpting Massage", price: "35 OMR" },
+        { name: "Half-Hour Rolex Massage", price: "18 OMR" },
+        { name: "Half-Hour Herbal Massage", price: "25 OMR" },
+      ],
+    },
+    {
+      category: "Manicure & Pedicure",
+      services: [
+        { name: "Manicure", price: "9 OMR" },
+        { name: "Pedicure", price: "12 OMR" },
+        { name: "Manicure & Pedicure", price: "18 OMR" },
+        { name: "Special Manicure & Pedicure", price: "25 OMR" },
+        { name: "Exclusive Manicure & Pedicure", price: "33 OMR" },
+        { name: "Manicure + Gel Color", price: "18 OMR" },
+        { name: "Manicure, Pedicure & Gel Color", price: "35 OMR" },
+        { name: "Regular Nail Color (Hands)", price: "5 OMR" },
+        { name: "Regular Nail Color (Hands & Feet)", price: "8 OMR" },
+        { name: "Gel Nail Color (Hands)", price: "10 OMR" },
+        { name: "Gel Nail Color (Hands & Feet)", price: "18 OMR" },
+        { name: "Gel Art Design", price: "3 OMR" },
+        { name: "Regular Nail Extension", price: "15 OMR" },
+        { name: "Gel Removal (Hands)", price: "8 OMR" },
+        { name: "Acrylic Removal", price: "15 OMR" },
+      ],
+    },
+    {
+      category: "Additional Services",
+      services: [
+        { name: "Eyebrow Bleaching", price: "3 OMR" },
+        { name: "Eyebrow Threading", price: "5 OMR" },
+        { name: "Face Threading", price: "7 OMR" },
+        { name: "Hair Trim (Ends)", price: "4 OMR" },
+        { name: "Any Haircut Style", price: "15 OMR" },
+        { name: "Hair Wash", price: "Starting from 3–8 OMR" },
+        { name: "Short Hair Wash + Blow Dry", price: "Starting from 12 OMR" },
+        { name: "Regular Short Hair Blow Dry", price: "Starting from 15 OMR" },
+        { name: "Roller Blow Dry", price: "Starting from 15 OMR" },
+      ],
+    },
+    {
+      category: "Makeup",
+      services: [
+        { name: "Regular Makeup", price: "25 OMR" },
+        { name: "Regular Makeup with Lenses", price: "35 OMR" },
+        { name: "Special Makeup", price: "45 OMR" },
+        { name: "Special Makeup with Lenses", price: "55 OMR" },
+        { name: "Bridal Makeup", price: "70 OMR" },
+        { name: "Bridal Makeup with Lenses", price: "85 OMR" },
+      ],
+    },
+    {
+      category: "Packages",
+      services: [
+        { name: "4 Full-Body Massage Sessions", price: "110 OMR" },
+        { name: "Rolex Massage Sessions", price: "120 OMR" },
+        { name: "Herbal Massage Sessions", price: "135 OMR" },
+        { name: "Moroccan Bath Sessions", price: "80 OMR" },
+        { name: "Blue Nila Bath Sessions", price: "90 OMR" },
+        { name: "Special Bath Sessions", price: "140 OMR" },
+        { name: "Bridal Bath Sessions", price: "145 OMR" },
+        { name: "Russian Bath Sessions", price: "120 OMR" },
+        { name: "Pigmentation Bath Sessions", price: "145 OMR" },
+        { name: "Caviar Treatment Sessions", price: "90 OMR" },
+        { name: "Filler Treatment Sessions", price: "70 OMR" },
+        { name: "Crystal Treatment Sessions", price: "100 OMR" },
+        { name: "Mix Shake Treatment Sessions", price: "70 OMR" },
+        { name: "Dandruff Treatment Sessions", price: "80 OMR" },
+      ],
+    },
+  ]

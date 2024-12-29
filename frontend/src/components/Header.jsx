@@ -19,9 +19,9 @@ const Header = () => {
                 </a>
             </div>
 
-            {/* --------- Header Right --------- */}
-            <div className='md:w-1/2 relative'>
-                <img className='w-full md:absolute bottom-0 h-auto rounded-lg' src={assets.header_img} alt="" />
+            {/* Header Right */}
+            <div className='md:w-1/2 flex justify-center items-center'>
+                <img className='w-[80%] sm:w-[80%] md:w-[80%] h-auto rounded-lg' src={assets.heroo} alt="header_img" />
             </div>
         </div>
     )
