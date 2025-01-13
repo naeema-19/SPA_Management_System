@@ -29,7 +29,7 @@ const AddDoctor = () => {
 
     return (
         <form onSubmit={onSubmitHandler} className="m-5 w-full">
-            <h1 className="text-2xl font-bold text-gray-700 mb-6">Add Doctor</h1>
+            <h1 className="text-2xl font-bold text-gray-700 mb-6">Add Staff</h1>
             <div className="bg-white p-6 rounded-lg shadow-lg max-w-4xl mx-auto">
                 {/* Image Upload */}
                 <div className="mb-6">
