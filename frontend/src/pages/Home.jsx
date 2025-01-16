@@ -11,7 +11,7 @@ const Home = () => {
       <Header />
       <SpecialityMenu />
       <SalonServices />
-      {/*<TopDoctors />*/}
+      <TopDoctors />
       <Banner />
     </div>
   )
